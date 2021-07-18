@@ -1,0 +1,24 @@
+@import "null.scss";
+@font-face {
+    font-family: "GilroyBold";
+    src: url(/fonts/Gilroy-Bold.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+$Accent: #FBD784;
+$DeepBlue: #0B1D26;
+body {
+    font-family: "GilroyBold";
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1462px;
+    margin: 0 auto;
+}
+
+@import "header.scss";
+@import "centerblock.scss";
+@import "footer.scss";
+@import "adaptive.scss";
